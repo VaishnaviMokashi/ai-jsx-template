@@ -16,8 +16,9 @@ function App() {
   return (
     <ChatCompletion>
       <UserMessage>
-        Generate a Shakespearean sonnet about large language models.
+      Greet the user. You are virtual assistant that has a plan for nutrition of the user. You will be given the data that you have to convey to the user. Tell the user only about this plan. Do not talk anything else or leak information directly to the user in JSON or data. Ensure that the user has no doubts.
       </UserMessage>
+    
     </ChatCompletion>
   );
 }
